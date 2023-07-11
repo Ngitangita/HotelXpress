@@ -11,4 +11,4 @@ Qui contient les étapes du projet
 
 # Modelisation de la base de données
 
-![ hotel DB ](./image/MCD.png "Elisé") 
+![ hotel DB ](./image/MCD_VersionFinal.png "Elisé") 
