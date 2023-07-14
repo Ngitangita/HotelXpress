@@ -1,0 +1,10 @@
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (1, '2024-01-22 10:05:49', 'PayPal', 7, 2);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (2, '2024-03-21 04:00:03', 'credit card', 7, 6);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (3, '2023-11-13 03:53:31', 'Gift card', 1, 2);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (4, '2023-09-26 17:25:11', 'Venmo', 5, 10);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (5, '2023-07-22 15:37:34', 'Google Pay', 8, 9);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (6, '2023-11-11 02:19:04', 'Venmo', 4, 1);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (7, '2023-09-21 07:08:06', 'Cash', 10, 2);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (8, '2023-09-09 09:33:01', 'Google Pay', 7, 8);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (9, '2023-08-23 01:42:39', 'Venmo', 10, 8);
+insert into payment (id, date_payment, method_payment, amount_paid, reservation_id) values (10, '2024-06-15 03:28:11', 'credit card', 9, 1);
