@@ -1,0 +1,10 @@
+insert into have_promotion (id, promotion_id, hotel_id) values (1, 7, 48);
+insert into have_promotion (id, promotion_id, hotel_id) values (2, 4, 46);
+insert into have_promotion (id, promotion_id, hotel_id) values (3, 15, 36);
+insert into have_promotion (id, promotion_id, hotel_id) values (4, 17, 49);
+insert into have_promotion (id, promotion_id, hotel_id) values (5, 11, 39);
+insert into have_promotion (id, promotion_id, hotel_id) values (6, 8, 31);
+insert into have_promotion (id, promotion_id, hotel_id) values (7, 1, 34);
+insert into have_promotion (id, promotion_id, hotel_id) values (8, 4, 11);
+insert into have_promotion (id, promotion_id, hotel_id) values (9, 12, 31);
+insert into have_promotion (id, promotion_id, hotel_id) values (10, 16, 8);

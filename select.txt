@@ -1,0 +1,10 @@
+3) select reservation_id, hotel_name from reservation_contain inner join room on reservation_contain.room_id = room.id inner join hotel on room.hotel_id = hotel.id order by reservation_id asc;
+4) select type, hotel_name from room_type inner join room on room.room_type_id = room_type.id inner join hotel on hotel.id = room.id;
+5) select start_date, end_date, hotel_name from have_promotion inner join promotion on have_promotion.promotion_id = promotion.id inner join hotel on have_promotion.hotel_id = hotel.id;
+6) select * from reservation left join "user" on "user".id = reservation.user_id;
+7)
+8) select method_paiement, count(amount_paid) from paiement group by method_paiement;
+9)
+10) select * from hotel group by city, id;
+11) 
+12) select * from room order by room.price_per_night, room.price_per_hour desc;

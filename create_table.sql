@@ -52,13 +52,14 @@ CREATE TABLE reservation (
   arrival timestamp not null,
   departure timestamp not null,
   date_reservation timestamp default current_date,
-  user_id int not null references "user"(id)
+  user_id int not null references "user"(id),
+  is_annulled boolean default false not null
 );
 
-CREATE TABLE paiement (
+CREATE TABLE payment (
   id serial primary key,
-  date_paiement timestamp not null default current_timestamp,
-  method_paiement varchar(150) not null,
+  date_payment timestamp not null default current_timestamp,
+  method_payment varchar(150) not null,
   amount_paid float not null check(amount_paid > 0),
   reservation_id int not null references reservation(id)
 );
@@ -155,9 +156,13 @@ CREATE TABLE give_room_feedback(
   room_id int not null references room(id)
 );
 
-CREATE TABLE bookmarks(
+CREATE TABLE bookmark(
  id serial primary key,
- bookmarks_name varchar(255) not null,
- user_id int not null references "user"(id),
- room_id int not null references room(id)
+ bookmark_name varchar(255) not null,
+ user_id int not null references "user"(id)
+);
+CREATE TABLE bookmark_contain (
+    id SERIAL PRIMARY KEY,
+    bookmark_id INT REFERENCES bookmark(id) NOT NULL,
+    room_id INT REFERENCES room(id) NOT NULL
 );

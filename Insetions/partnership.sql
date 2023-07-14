@@ -1,0 +1,21 @@
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (1, '2022-08-16 02:37:21', 'Scraper', true, 'Insert colonic stent NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (2, '2024-04-15 18:12:36', 'Dragline', true, 'Total splenectomy');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (3, '2022-11-17 00:02:04', 'Compactor', false, 'Iridotomy w transfixion');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (4, '2022-09-03 00:47:50', 'Compactor', false, 'CAS w MR/MRA');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (5, '2024-02-25 07:58:31', 'Dragline', false, 'Occlus head/neck ves NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (6, '2022-12-06 11:39:43', 'Bulldozer', false, 'Renal decapsulation');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (7, '2023-06-02 19:51:32', 'Compactor', false, 'Rem int bivent hrt sys');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (8, '2023-11-20 17:19:49', 'Dump Truck', true, 'Suture peptic ulcer NOS');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (9, '2024-07-10 13:36:22', 'Excavator', false, 'Applic ext fix dev-femur');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (10, '2023-12-10 06:11:18', 'Trencher', true, 'Esoph fistula repair NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (11, '2023-07-09 13:49:32', 'Excavator', true, 'Ambu cardiac monitoring');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (12, '2023-03-06 03:16:16', 'Dragline', false, 'Conjunc/lid adhesiolysis');
+
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (13, '2024-05-05 15:04:44', 'Skid-Steer', false, 'Intralum vag adhesiolys');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (14, '2024-03-17 23:03:27', 'Trencher', false, 'Lower limb artery incis');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (15, '2024-12-07 05:45:01', 'Skid-Steer', false, 'Ureteral anastomosis NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (16, '2024-07-15 05:44:15', 'Bulldozer', true, 'Dilation of intestine');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (17, '2024-03-20 03:50:31', 'Crawler', true, 'Tiss adj to valv ops NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (18, '2024-12-22 18:08:40', 'Trencher', false, 'Lingual frenotomy');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (19, '2023-07-09 03:40:16', 'Backhoe', true, 'Jt structur division NEC');
+insert into partnership (id, date_proposition, partnership_type, is_accepted, message) values (20, '2023-12-12 04:48:47', 'Skid-Steer', false, 'Cell blk/pap-musculoskel');

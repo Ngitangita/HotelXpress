@@ -1,0 +1,21 @@
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (1, 'Pose the problem. Lay out the major parts of the plan (not to mention part 1', '2022-03-03', 8, 44, 23);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (2, 'part 2', '2023-03-17', 3, 41, 14);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (3, 'the hook (also called a leader). Present the text (title', '2023-01-22', 4, 91, 45);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (4, 'author', '2023-01-10', 1, 3, 22);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (5, 'etc.', '2022-12-23', 6, 64, 35);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (6, 'Use precise literary vocabulary', '2023-06-09', 1, 8, 24);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (7, 'etc.', '2023-02-13', 6, 61, 3);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (8, 'Pay attention to the argumentative quality of your demonstration.', '2022-02-04', 2, 9, 57);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (9, 'the hook (also called a leader). Present the text (title', '2023-02-23', 10, 36, 13);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (10, 'Attract the reader''s attention with a contextual element', '2023-01-19', 8, 41, 2);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (11, 'author', '2022-10-10', 9, 93, 31);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (12, 'Pose the problem. Lay out the major parts of the plan (not to mention part 1', '2023-03-23', 7, 14, 7);
+
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (13, 'Pay attention to the argumentative quality of your demonstration.', '2023-07-09', 4, 68, 12);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (14, 'author', '2024-01-14', 1, 48, 56);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (15, 'author', '2022-03-24', 6, 93, 46);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (16, 'Pose the problem. Lay out the major parts of the plan (not to mention part 1', '2023-03-03', 1, 42, 8);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (17, 'Pose the problem. Lay out the major parts of the plan (not to mention part 1', '2022-08-29', 10, 48, 39);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (18, 'Save time for writing and proofreading.', '2022-05-21', 7, 6, 54);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (19, 'Pay attention to the argumentative quality of your demonstration.', '2022-01-14', 3, 6, 35);
+insert into give_room_feedback (id, text_body, date_feedback, note, user_id, room_id) values (20, 'Pay attention to the argumentative quality of your demonstration.', '2023-09-12', 1, 38, 26);

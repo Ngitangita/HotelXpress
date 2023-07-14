@@ -1,0 +1,10 @@
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (1, 'the world''s largest accommodation comparator', '2022-08-27', 10, 64, 40);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (2, 'Booking', '2022-12-19', 9, 32, 36);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (3, 'Booking', '2022-09-26', 10, 30, 7);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (4, 'which appears as soon as the customer searches on Google', '2022-10-08', 0, 22, 16);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (5, 'Yelp', '2023-06-24', 0, 99, 42);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (6, 'which appears as soon as the customer searches on Google', '2023-02-28', 7, 47, 6);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (7, 'the most popular hotel booking platform', '2023-07-12', 6, 56, 23);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (8, 'which appears as soon as the customer searches on Google', '2023-06-19', 1, 38, 7);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (9, 'Booking', '2022-12-12', 10, 53, 6);
+insert into give_hotel_feedback (id, text_body, date_feedback, note, user_id, hotel_id) values (10, 'Booking', '2023-02-02', 8, 55, 12);
