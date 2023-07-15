@@ -15,7 +15,7 @@ Qui contient les étapes du projet
 
 # Requêtes basiques
 
-![ hotel DB ](./select/basic_line1.sql "Elisé")
+![ Line 1 ](./select/basic_line1.sql "Elisé")
 
 [ligne 1](https://github.com/Ngitangita/HotelXpress/blob/main/select/basic_line1.sql).
 [ligne 2](https://github.com/Ngitangita/HotelXpress/blob/main/select/basic_line2.sql).
