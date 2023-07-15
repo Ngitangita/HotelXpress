@@ -1,3 +1,8 @@
-SELECT * FROM reservation 
-WHERE user_id = x;
+SELECT
+    r.*
+FROM
+    reservation AS r
+WHERE
+    r.user_id = x
+ ;
 --- remplacez x par un entier
