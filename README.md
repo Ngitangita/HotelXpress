@@ -12,3 +12,5 @@ Qui contient les étapes du projet
 # Modelisation de la base de données
 
 ![ hotel DB ](./img/mcd.png "Elisé") 
+
+![ select 1](./select/basic_line1.sql "Elisé") 
