@@ -1,19 +1,19 @@
 SELECT
-    r.*, hotel_name
+    room.*
 FROM
-    reservation AS r
-INNER JOIN
-    reservation_contain AS rc
-ON
-    r.id = rc.reservation_id
-INNER JOIN
     room
+INNER JOIN
+    room_type
 ON
-    rc.room_id = room.id
+    room.room_type_id = room_type.id
 INNER JOIN
     hotel
 ON
     hotel.id = room.hotel_id
-ORDER BY
-    date_reservation
-DESC;
+WHERE
+    room_type.type = x
+AND
+    hotel.id = y;
+
+--- NB: x = un type donné
+---     y = un hotel donné
