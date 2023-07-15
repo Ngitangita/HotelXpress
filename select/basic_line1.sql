@@ -19,4 +19,4 @@ INNER JOIN
 ON
     h.id = r.hotel_id
 WHERE
-    ut.user_type = 'receptionist';
+    ut.user_type = 'receptioniste';
