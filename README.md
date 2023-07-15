@@ -13,7 +13,7 @@ Qui contient les étapes du projet
 
 ![ hotel DB ](./img/mcd.png "Elisé") 
 
-## Requêtes basiques
+# Requêtes basiques
 
 ![ Line 1 ](./select/basic_line1.sql "Elisé")
 
