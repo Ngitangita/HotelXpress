@@ -13,7 +13,7 @@ Qui contient les étapes du projet
 
 ![ hotel DB ](./img/mcd.png "Elisé") 
 
-# Requêtes basiques :
+# Requêtes basiques
 ![ligne 1](./select/basic_line1.sql)
 [ligne 1](https://github.com/Ngitangita/HotelXpress/blob/main/select/basic_line1.sql).
 [ligne 2](https://github.com/Ngitangita/HotelXpress/blob/main/select/basic_line2.sql).
