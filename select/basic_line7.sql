@@ -1,3 +1,8 @@
-SELECT COUNT(payment.amount_paid) FROM payment
-GROUP BY payment.amount_paid,payment.method_payment
-HAVING payment.method_payment = 'Mobile Money';
+SELECT
+    SUM(amount_paid) as total
+FROM
+    payment
+GROUP BY
+    method_payment
+HAVING
+    method_payment = 'mobile money';
