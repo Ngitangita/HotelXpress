@@ -1,8 +1,7 @@
 SELECT
-    room.*
+    *
 FROM
-    room
+    hotel
 WHERE
-    (price_per_night <= x AND price_per_night >= y)
-OR
-    (price_per_hour <= x AND price_per_hour >= y);
+    city = x;
+-- x: localisation donnée

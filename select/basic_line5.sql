@@ -5,4 +5,3 @@ FROM
 WHERE
     r.user_id = x
  ;
---- remplacez x par un entier
