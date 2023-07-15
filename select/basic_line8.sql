@@ -12,3 +12,5 @@ AND
     reservation.date_reservation >= date1
 AND
     reservation.date_reservation <= date2;
+--- date1 et date2 interval nommé  periode
+-- x: un hotel donnéé
