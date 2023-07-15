@@ -2,7 +2,7 @@
 
 ## Contributeurs
  - [Elisé](https://github.com/Ngitangita)
- - [Angelo](https://github.com/Angelonasandratra)
+ - [Angelo](https://github.com/Angelosolofonirina)
  - [tantely](https://github.com/Hevitriniavo)
 
 ## Cahier des charges de gestion d'hotel
