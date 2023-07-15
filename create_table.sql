@@ -136,7 +136,7 @@ CREATE TABLE give_hotel_feedback(
   id serial primary key,
   text_body text,
   date_feedback date default current_date,
-  note int not null check(note >= 0 and note <= 10),
+  note int not null,
   user_id int not null references "user"(id),
   hotel_id int not null references hotel(id)
 );
@@ -151,7 +151,7 @@ CREATE TABLE give_room_feedback(
   id serial primary key,
   text_body text,
   date_feedback date default current_date,
-  note int not null check(note >= 0 and note <= 10),
+  note int not null,
   user_id int not null references "user"(id),
   room_id int not null references room(id)
 );
@@ -161,6 +161,7 @@ CREATE TABLE bookmark(
  bookmark_name varchar(255) not null,
  user_id int not null references "user"(id)
 );
+
 CREATE TABLE bookmark_contain (
     id SERIAL PRIMARY KEY,
     bookmark_id INT REFERENCES bookmark(id) NOT NULL,
