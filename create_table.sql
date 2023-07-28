@@ -77,7 +77,7 @@ CREATE TABLE room (
  id serial primary key,
  room_category varchar(100) not null,
  room_name varchar(200) not null,
- room_url_img varchar(255) not null,
+ room_url_img varchar(1255) not null,
  description text,
  price_per_night float check(price_per_night > 0),
  price_per_hour float check(price_per_hour > 0),
