@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Logo a{
+    font-family: 'Poppins', Carter One;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #fff;
+}
+.Logo span{
+    color: #febb02;
+}
+.navbar{
+    background-color: #222222;
+    position: fixed;
+    width: 100vw;
+    top: O;
+    z-index: 10;
+    height: 10vh;
+    line-height: 10vh;
+}
+
+#nav-menu{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-menu li{
+    display: inline-block;
+    transition: all 0.5s ease-in;
+    margin: 0 30px 0 0;
+}
+
+#nav-menu li a{
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.8;
+}
+
+#nav-menu li a:hover{
+    color: #31b675;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+.menu-icon{
+    display: none;
+}
+
+
+nav i {
+    color: #fff;
+}
+
+.login-area a{
+    font-weight: 3 00;
+    opacity: 0.8;
+    font-size: 15px;
+    color: #fff;
+}
+
+
+
+#List{
+   position: relative;
+   display: inline-block;
+   color: #fff;
+   cursor: pointer;
+}
+
+.sousList{
+    position: absolute;
+    display: none;
+    z-index: 1;
+    color: #000 !important;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#List:hover .sousList{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .login-area{
+        position: absolute;
+        right: 20px;
+    }
+
+    .navbar{
+        text-align: center;
+    }
+    nav ul{
+        display: block;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    nav ul li{
+        display: block;
+    }
+     
+    .Logo{
+        display: block;
+        position: absolute;
+        left: 100px;
+        opacity: 0;
+        border: #31b675 2px solid;
+    }
+
+    nav ul.active{
+        background-color: #31b675;
+        left: 0;
+        opacity: 1;
+        transition: 0.5s;
+        z-index: 100;
+    }
+    nav ul li a{
+        font-weight: 400;
+    }
+
+    .menu-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times{
+        font-size: 2rem;
+    }
+
+    .sousList{
+        position: absolute;
+        display: none;
+        z-index: 1;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        background-color: rgba(126, 58, 58, 0.3);
+    }
+}
+
+/* ------------ */
+
+a{
+    text-decoration: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex_space{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    max-width: 85%;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+}
+
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.primary-btn{
+    padding: 10px 20px;
+    background-color: #31b675;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.primary-btn:hover{
+    border: 1px solid #31b675;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+}   
+
