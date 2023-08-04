@@ -1,0 +1,139 @@
+
+.reserver{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .reservationContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+  }
+  
+  .reservationBtn {
+    background-color: #0071c2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+    width: auto;
+    border-radius: 5px;
+  }
+  
+  .reservationSearch {
+    height: 30px;
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-radius: 5px;
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+  }
+  
+  .reservationIcon {
+    color: lightgray;
+  }
+  
+  .reservationSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .reservationSearchInput {
+    border: none;
+    outline: none;
+  }
+ 
+  .reservationSearchText {
+    color: lightgray;
+    cursor: pointer;
+  }
+  
+  .date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
+  
+  .options {
+    z-index: 2;
+    position: absolute;
+    top: 50px;
+    background-color: white;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+  }
+  
+  .optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .optionCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .optionCounterButton {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color: #0071c2;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .optionCounterButton:disabled {
+    cursor: not-allowed;
+  }
+
+@media (max-width: 425px) {
+
+    .reserver {
+      height: 50vh;
+  }
+
+    .reservationSearch {
+      width: 80%;
+      height: 40vh;
+      display: flex;
+      justify-content: space-between !important;
+      flex-direction: column;
+    }
+
+    .reservationContainer {
+      margin: -1px 35px 190PX 35px;
+  }
+
+  
+  .date {
+    top: 100px;
+  }
+  
+  .options {
+    top: 130px;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+
+  .reservationBtn{
+    width: auto !important;
+  }
+  }

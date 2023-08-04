@@ -1,0 +1,118 @@
+#Payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: rgba(28, 141, 240, 0.555);
+}
+
+.payment{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#labelpayment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+#labelpayment input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+}
+
+.Paymentselect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.Paymentselect select{
+    width: 70%;
+}
+
+.buttonpayment{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonpayment button{
+    width: 30%;
+    padding: 10px 20px;
+    background-color: rgba(28, 141, 240, 0.555);
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+
+    #Payment{
+        height: 65vh;
+    }
+
+    .payment {
+        width: 50%;
+        height: 60vh;
+    }
+
+    #labelpayment {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .Paymentselect {
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+        gap: 0px;
+        align-items: start;
+    }
+
+    .Paymentselect select{
+        width: 90%;
+    }
+
+    #labelpayment input {
+        width: 90%;
+    }
+
+    button {
+        width: 25%;
+    }
+}
+
+@media (max-width: 425px) {
+    .payment {
+        width: 90%;
+    }
+
+    #labelpayment input {
+        width: 100%;
+    }
+
+    .Paymentselect select{
+        width: 100%;
+    }
+
+    button {
+        width: 40%;
+    }
+}
